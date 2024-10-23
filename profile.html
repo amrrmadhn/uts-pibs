@@ -110,5 +110,16 @@
 
     
     </footer>
+
+    <script>
+        function showSection(section) {
+            document.getElementById('biodata').style.display = 'none';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('experience').style.display = 'none';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('publish').style.display = 'none';
+            document.getElementById(section).style.display = 'block';
+        }
+    </script>
 </body>
 </html>
