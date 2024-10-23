@@ -12,5 +12,72 @@
         <h1 class="logo">Profile Mahasiswa</h1>
        
     </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('biodata')">Biodata</a></li>
+                <li><a href="#" onclick="showSection('education')">Pendidikan</a></li>
+                <li><a href="#" onclick="showSection('experience')">Pengalaman</a></li>
+                <li><a href="#" onclick="showSection('publish')">Publikasi</a></li>
+                <li><a href="#" onclick="showSection('skills')">Keahlian</a></li>
+            </ul>
+        </nav>
+
+        <section id="content">
+            <div id="biodata">
+                <h2>Biodata</h2>
+                <p>Nama: Ammar Ramadhan</p>
+                <p>Umur: 20 tahun</p>
+                <p>Alamat: Jakarta, Indonesia</p>
+            </div>
+
+            <div id="education" style="display:none;">
+                <h2>Pendidikan</h2>
+                <p>Universitas Pembangunan Jaya - Sistem Informasi</p>
+            </div>
+
+            <div id="experience" style="display:none;">
+                <h2>Pengalaman</h2>
+                <br>
+                <ul>
+                    <li>Developer Google</li><span>2022 - 2023</span>
+                    <li>Creative Design GIDHUB 2024</li><span>2023 - 2024</span>
+                </ul>
+            </div>
+
+            <div id="publish" style="display:none;">
+                <h2>Publikasi</h2>
+                <br>
+                <ul>
+                    <li>Jurnal Bahasa Indonesia</li>
+                </ul>
+            </div>
+            
+            <div id="skills" style="display:none;">
+                <h2>Keahlian</h2>
+                <br>
+                <ul>
+                    <li>Bermain Game</li>
+                    <li>Critical Thinking</li>
+                    <li>Hack Server NASA</li>
+                    <li>Bobol Database Google</li>
+                </ul>
+            </div>
+
+           
+
+        </section>
+
+        <aside>
+            <h2>Hobi</h2>
+            <ul>
+                <li>Bermain</li>
+                <li>Belajar</li>
+              
+            </ul>
+        </aside>
+
+    </div>
 </body>
 </html>
