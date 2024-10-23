@@ -139,3 +139,31 @@ footer {
         width: 100%; /* Aside 100% */
     }
 }
+
+/* tablet portrait (max-width: 768px) */
+@media (max-width: 768px) {
+    header, nav, section, aside {
+        width: 100%; /* Semua elemen 100% */
+    }
+
+    .container {
+        flex-direction: column; 
+    }
+
+   
+    nav ul {
+        display: flex; 
+        justify-content: space-around; 
+        padding: 0px; 
+    }
+
+    nav ul li {
+        margin: 20px; 
+        list-style: none; 
+    }
+
+    nav ul li a {
+        padding: 10px 15px; 
+        font-size: 1.1rem; 
+    }
+}
