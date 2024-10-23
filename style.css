@@ -212,3 +212,22 @@ footer {
         overflow-x: hidden; 
     }
 }
+
+/* smartphone landscape */
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        flex-direction: row;
+    }
+
+    nav {
+        width: 30%;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    aside {
+        width: 20%;
+    }
+}
