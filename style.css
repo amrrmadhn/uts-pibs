@@ -81,3 +81,36 @@ aside {
     padding: 2rem;
     min-height: 100vh;
 }
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #000000;
+}
+
+.footer-left, .footer-right, .footer-center {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+    padding-right: 20px;
+}
