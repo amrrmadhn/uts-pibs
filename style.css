@@ -167,3 +167,48 @@ footer {
         font-size: 1.1rem; 
     }
 }
+
+/* Smartphone !!!!!!!!!!!!!!!!*/
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav, aside, section {
+        width: 100%;
+        float: none;
+    }
+
+    nav ul {
+        display: block; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+
+    nav ul li a {
+        font-size: 1rem; 
+        padding: 8px 10px; 
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pfp {
+        width: 40px;
+        height: 40px;
+    }
+
+    section {
+        padding: 1rem; 
+    }
+
+    body {
+        font-size: 14px; 
+        overflow-x: hidden; 
+    }
+}
